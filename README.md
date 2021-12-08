@@ -2,7 +2,7 @@
 
 Advanced techniques that will enable us to tackle more complex projects with Express
 
-[Link to project example this course](https://github.com/laissonsilveira/nodejs-advanced-express/tree/main/)
+[Link to project example](https://github.com/laissonsilveira/nodejs-advanced-express/tree/main/)
 
 ## project skills
 
