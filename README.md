@@ -14,3 +14,37 @@ Advanced techniques that will enable us to tackle more complex projects with Exp
 * Deploying an Express application
 * Securing an Express application
 * Running behind a web server
+
+### Tuning Express performance: Further measures
+-----------------------------------------------
+
+Futher Recommendations
+
+* Cache request results
+* Don't use synchronous funcions
+* Don't use console.log() because it's synchronous
+* Handle erros and exceptions properly
+* Use a cluster
+
+### Tuning Express performance: NODE_ENV and compression
+-----------------------------------------------
+
+Use `NODE_ENV=production` to reduce the CPU and more
+
+Compress Server Responses
+
+`npm add compression`
+
+and use...
+
+```javascript
+const compression = require('compression');
+const express = require('express');
+const app = express();
+app.use(compression());
+```
+
+### Securing an Express application
+-----------------------------------------------
+
+https://expressjs.com/en/advanced/best-practice-security.html
